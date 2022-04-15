@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>People | Computational Healthcare and Biotechnology (COHB) Lab</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript">
+
+        var image_data = null;
+        $.getJSON('images.json', function(data) {
+
+            // console.log(typeof data);
+            image_data = data;
+        }).then(function() {
+            load_people();
+        });
+
+        function t(id) {
+            if(image_data !== null) {
+                image_data[id.toString()]['src'] = 'https://cohblab.vercel.app' + image_data[id.toString()]['src'];
+                return image_data[id.toString()];
+            }
+
+            return '';
+        }
+
+        function load_people() {
+        var people = [
+            {
+                name: "Rehma Razzak",
+                id: 7,
+                previous: !1,
+                title: "PhD Student",
+                gradStudent: !0,
+                department: "Data Science and Analytics",
+                interests: "Game Development, Computer Science, Machine Learning",
+                position: "Graduate Research Assistant",
+                picture: t(9687),
+            },
+            {
+                name: "Swetha Pailla ",
+                id: 15,
+                previous: !1,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "Artificial Intelligence, Machine Learning",
+                position: "Graduate Research Assistant",
+                picture: t(3634),
+            },
+            {
+                name: "Roger Ian Konlog",
+                id: 8,
+                previous: !1,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "Machine Learning, Software Engineering",
+                position: "Graduate Research Assistant",
+                picture: t(9713),
+            },
+            {
+                name: "Ryann Williams",
+                id: 10,
+                previous: !1,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "Software Engineering, Computational Biology, Artificial Intelligence",
+                position: "Graduate Research Assistant",
+                picture: t(5721),
+            },
+            {
+                name: "Angelica Ajoku",
+                id: 2,
+                previous: !1,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "Information Technology",
+                interests: "Data Science, Data Analysis",
+                position: "Graduate Research Assistant",
+                picture: t(8704),
+            },
+            {
+                name: "Vijayalakshmi Sathyanarayanan ",
+                id: 16,
+                previous: !1,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "Biotechnology, Artificial intelligence, Data Science and Analytics",
+                position: "Graduate Research Assistant",
+                picture: t(5877),
+            },
+            {
+                name: "Christopher Woolford",
+                id: 3,
+                previous: !1,
+                title: "Undergrad Student",
+                gradStudent: !1,
+                department: "College of Science and Mathematics",
+                interests: "Deep Learning, BioInformatics, Optics, Plasma Physics, Particle Physics",
+                position: "Undergraduate Research Assistant",
+                picture: t(332),
+            },
+            {
+                name: "Cora Meador",
+                id: 4,
+                previous: !1,
+                title: "Undergrad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "Applied Machine Learning, Cybersecutiy, Bioinformatics, Statistical Inference",
+                position: "Undergraduate Research Assistant",
+                picture: t(5627),
+            },
+            {
+                name: "Dalton Harvey",
+                id: 12,
+                previous: !1,
+                title: "Undergrad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "Machine Vision, Software Engineering, Data Science",
+                position: "Undergrad Research Assistant",
+                picture: t(8842),
+            },
+            {
+                name: "Ivan Tlaseca",
+                id: 5,
+                previous: !1,
+                title: "Undergrad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "Artificial intelligence, Android Development, UI Development, Software Engineering",
+                position: "Undergraduate Researcher",
+                picture: t(7880),
+            },
+            {
+                name: "Grey Won",
+                id: 17,
+                previous: !1,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Janelle Tenorio",
+                id: 18,
+                previous: !1,
+                title: "Undergrad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Sushma Aladhalli Shivakumar ",
+                id: 14,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "Machine Learning, Computer Vision, Data Visualization, Data Analysis, Statistical Modeling",
+                position: "Graduate Research Assistant",
+                picture: t(8201),
+            },
+            {
+                name: "Akula Sai Shashank",
+                id: 11,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "Machine Learning, Deep Learning, Artificial Intelligence, Data Analytics",
+                position: "Graduate Research Assistant",
+                picture: t(9352),
+            },
+            {
+                name: "Keay Davidson",
+                id: 18,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Jessica Barnes",
+                id: 19,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Lin Wang",
+                id: 20,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Yihong Li",
+                id: 21,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Ryan Deem",
+                id: 9,
+                previous: !0,
+                title: "Undergrad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "Machine Learning, Software Engineering, Neural Networks, Mathematics",
+                position: "Undergraduate Research Assistant",
+                picture: t(8035),
+            },
+            {
+                name: "Suzan Manasreh",
+                id: 1,
+                previous: !0,
+                title: "Undergrad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "Web Development, Automation, Software Engineering",
+                position: "Undergraduate Research Assistant & Web Developer",
+                picture: t(5056),
+            },
+            {
+                name: "Sandra Gomez Castro",
+                id: 13,
+                previous: !0,
+                title: "Undergrad Student",
+                gradStudent: !1,
+                department: "Data Science and Analytics",
+                interests: "Data Science, Machine Learning",
+                position: "Undergrad Research Assistant",
+                picture: t(3407),
+            },
+            {
+                name: "Yihong Li",
+                id: 21,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Nihad Kalathingal",
+                id: 22,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Joshua Odeyemi",
+                id: 23,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Eric Camadine",
+                id: 24,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Former Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Xiaoju Jiang",
+                id: 25,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Former Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Shelby Joji",
+                id: 26,
+                previous: !0,
+                title: "Grad Student",
+                gradStudent: !1,
+                department: "College of Computing and Software Engineering",
+                interests: "COHB Lab",
+                position: "Former Graduate Research Assistant",
+                picture: t(67),
+            },
+            {
+                name: "Andy Vu",
+                id: 27,
+                previous: !1,
+                title: "Grad Student",
+                gradStudent: !0,
+                department: "College of Computing and Software Engineering",
+                interests: "Machine Learning, Deep learning, Data Analytics",
+                position: "Graduate Research Assistant",
+                picture: t(6408),
+            },
+        ];
+
+            // console.log(people);
+            console.log(JSON.stringify(people));
+        }
+
+    //     var func_data = {
+    //     6408: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/andy_vu.d8d9ea36.jpg",
+    //                 height: 2089,
+    //                 width: 2489,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAHAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAdEAACAQQDAAAAAAAAAAAAAAABAgADBBEiBXGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAID/9oADAMBAAIRAxEAPwC+rbXJ5ZBhijW5cb69Y9iIljmQdN//2Q==",
+    //             });
+    //     },
+    //     8704: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/angelica_ajoku.877dbcc2.jpg",
+    //                 height: 372,
+    //                 width: 275,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAYDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAdEAABBAIDAAAAAAAAAAAAAAABAAIDBBEhBhJR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAMAwEAAhEDEQA/AJpbXIa4bEGWJrpe/tCWZDIwQGnXpztERABVJt//2Q==",
+    //             });
+    //     },
+    //     332: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/christopher_woolford.44710f16.jpg",
+    //                 height: 491,
+    //                 width: 316,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAdEAABBAIDAAAAAAAAAAAAAAABAAIDBBMhERIU/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABkRAAMAAwAAAAAAAAAAAAAAAAABEQISIf/aAAwDAQACEQMRAD8Ai2KXpjgfTquifjGZrtHsdgkk7PCIiM8E3Re85D//2Q==",
+    //             });
+    //     },
+    //     5627: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/cora_meador.69361e52.jpg",
+    //                 height: 1040,
+    //                 width: 1046,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAfEAACAQQCAwAAAAAAAAAAAAABAgADBBESBQYiUYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAA//EABYRAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEQMRAD8AoU7JbDsWjcxSFuzmmlPbwbCgFfQbc5z8iIiKaf/Z",
+    //             });
+    //     },
+    //     8842: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/dalton_harvey.f98aa90c.jpg",
+    //                 height: 1502,
+    //                 width: 1126,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAYDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAAP/EACAQAAIBAgcBAAAAAAAAAAAAAAECAAQFAwcREhQhMUH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAAMBAAAAAAAAAAAAAAAAAAABAhP/2gAMAwEAAhEDEQA/ACZlW1LjUluS1O4U4Z2eH71rERI4wJ02f//Z",
+    //             });
+    //     },
+    //     8902: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/group_photo.1f35d327.png",
+    //                 height: 3024,
+    //                 width: 4032,
+    //                 blurDataURL:
+    //                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAMAAADJ2y/JAAAATlBMVEWom4uQh39ydIIpLjebk4dSUlWuqJw7NTF8dG5tXkmSjIadj3teU0qAgn9zZVV+cWCHfXA8P024oIR4ali8rJXYxqzRt5MdHh8tKSallHqI4MHyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVQImQXBBQLAIAwAsUPbYhOY/f+jS4gZcgS8c2Wv68KrJqsUjrCd1nonhXl/8gjahsiw9wcnCQHORm252QAAAABJRU5ErkJggg==",
+    //             });
+    //     },
+    //     7880: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/ivan_tlaseca.09ed9c78.jpg",
+    //                 height: 274,
+    //                 width: 271,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAfEAABAwQDAQAAAAAAAAAAAAABAAIEAxETIQYHQVH/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8AsQ+cspdiSYcqAI7K9URMmW7mlpsHOHw615dERUMkLf/Z",
+    //             });
+    //     },
+    //     7426: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/professor.d02c2109.jpeg",
+    //                 height: 384,
+    //                 width: 303,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAYDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAbEAACAgMBAAAAAAAAAAAAAAAAAQIRBAYhYf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oADAMBAAIRAxEAPwCVlvWZHkKSt1KutegAohNv/9k=",
+    //             });
+    //     },
+    //     9687: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/rehma_razzak.92cdc035.png",
+    //                 height: 758,
+    //                 width: 604,
+    //                 blurDataURL:
+    //                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAMAAADtGH4KAAAAV1BMVEXb0MitYl6+KDt8XVPBLUOslY3VKT3m29LLKkSnm5aUdW7EdmWwd2TAtK/MSkvaxrzEsqlrTkieIjHrppVIKCZ8LDTRmYXCmoZkPjguEhWihXzrtpzRaX3GL5mmAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVQImQXBhQHAMAzAMBeT8pj/v3MSkJKABHdOwpjr+0C46pEbeSura5jblP3DLr2rotHb6H85WwIPBtm19gAAAABJRU5ErkJggg==",
+    //             });
+    //     },
+    //     9713: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/roger_ian_konlog.2ec45e70.jpg",
+    //                 height: 548,
+    //                 width: 468,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAH/xAAeEAABAwQDAAAAAAAAAAAAAAABAAMhAgQREgUGkf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECAxL/2gAMAwEAAhEDEQA/AJc9Z5Wltx21DD0jQPV6E0xBxnBE+oiIdcS9M//Z",
+    //             });
+    //     },
+    //     8035: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/ryan_deem.b8932a18.jpg",
+    //                 height: 890,
+    //                 width: 940,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAhEAABAwEJAAAAAAAAAAAAAAAAAQMREwIEBQYSIjGBkf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAGREAAgMBAAAAAAAAAAAAAAAAAAIBAxEE/9oADAMBAAIRAxEAPwCOuY7suN2Yceoq5SiNscavewAUvzouYHFjSf/Z",
+    //             });
+    //     },
+    //     5721: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/ryann_williams.346a4cd1.jpg",
+    //                 height: 365,
+    //                 width: 379,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAH/xAAfEAABAwMFAAAAAAAAAAAAAAABAAIDBAURBhMUIZH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAEAE//aAAwDAQACEQMRAD8AtRp3mWeWasmgkLRuNEbSC4huCw95ByPUREzCpVv/2Q==",
+    //             });
+    //     },
+    //     9352: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/sai_shashank_akula.a1306256.jpg",
+    //                 height: 452,
+    //                 width: 410,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAcEAACAgMBAQAAAAAAAAAAAAABAgARAwQFIWH/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABcRAAMBAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AKX5OhsZXReg2NhRKILojyqJ+xESbrApH//Z",
+    //             });
+    //     },
+    //     3407: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/sandra_gomez_castro.4dc0aea2.jpg",
+    //                 height: 612,
+    //                 width: 494,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAYDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAeEAABBAIDAQAAAAAAAAAAAAABAAIDBCExBQcRQf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwCXD2deqclYsxxvdHNgse73I0QND7pERVkV/9k=",
+    //             });
+    //     },
+    //     8201: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/sushma_aladhalli_shivakumar.c3d03031.jpg",
+    //                 height: 834,
+    //                 width: 1003,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAHAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAL/xAAdEAABBAIDAAAAAAAAAAAAAAACAAEEEgMRQVFx/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABoRAQEAAgMAAAAAAAAAAAAAAAIBAAMEEVH/2gAMAwEAAhEDEQA/AJjPOwxzmUYoeGoG5G1hIum15yiIh0Ks93H5AIUk8z//2Q==",
+    //             });
+    //     },
+    //     5056: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/suzan_manasreh.58d06c17.jpg",
+    //                 height: 126,
+    //                 width: 118,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAdEAABBQEAAwAAAAAAAAAAAAADAAECBBEGBYHw/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAQIh/9oADAMBAAIRAxEAPwCfm+jvk8zVKUZNu2T4xMaDCjB8j6fPnREUxbRr/9k=",
+    //             });
+    //     },
+    //     3634: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/swetha_pailla.6db3e747.jpg",
+    //                 height: 440,
+    //                 width: 562,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAGAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAdEAACAgIDAQAAAAAAAAAAAAABAgADESESFXGR/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABkRAQACAwAAAAAAAAAAAAAAAAEAAgMRIf/aAAwDAQACEQMRAD8ApKHfvq7lZittTq6k6HErjGvfsREHiVHcVc7P/9k=",
+    //             });
+    //     },
+    //     67: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/unknown_person.f72b49f8.jpeg",
+    //                 height: 1024,
+    //                 width: 925,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q==",
+    //             });
+    //     },
+    //     5877: function (A, e, t) {
+    //         "use strict";
+    //         t.r(e),
+    //             (e.default = {
+    //                 src: "/_next/static/media/vijayalakshmi_sathyanarayanan.1e673e05.jpg",
+    //                 height: 980,
+    //                 width: 600,
+    //                 blurDataURL:
+    //                     "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAdEAABBQEAAwAAAAAAAAAAAAABAAIDBAURITFB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABkRAAMAAwAAAAAAAAAAAAAAAAABAgMRIf/aAAwDAQACEQMRAD8Ah0dXWy46skVi5YjsRBxLZuEP4Cegd+Ob68IiJLHOguun/9k=",
+    //             });
+    //     }
+    // };
+
+    // var image_data = {};
+
+    // for(var key in func_data) {
+    //     if(func_data.hasOwnProperty(key)) {
+    //         var fstr = func_data[key].toString();
+    //         fstr = fstr.substring(fstr.indexOf('{') + 1);
+    //         fstr = fstr.substring(fstr.indexOf('{'));
+    //         fstr = fstr.substring(0, fstr.indexOf('}') + 1);
+
+    //         fstr = fstr.replace('=",', '="');
+    //         fstr = fstr.replace('Z",', 'Z"');
+    //         fstr = fstr.replace('src:', '"src":');
+    //         fstr = fstr.replace('height:', '"height":');
+    //         fstr = fstr.replace('width:', '"width":');
+    //         fstr = fstr.replace('blurDataURL:', '"blurDataURL":');
+
+    //         // console.log(fstr.toString());
+    //         image_data[key] = JSON.parse(fstr.toString());
+
+    //         // console.log(fstr.substring(fstr.substring(fstr.indexOf('{') + 1).indexOf('{')));
+
+    //         // console.log(key + '=>' + func_data[key].toString());
+    //     }
+    // }
+
+    // console.log(JSON.stringify(image_data));
+
+    </script>
+</head>
+<body>
+<div class="cohb-block container-fluid">
+    <div class="cohb-block container-fluid">
+        <div w3-include-html="header.html"></div>
+    </div>
+    <div class="container">
+        <div class="pt-2 pb-2"></div>
+        <div class="page-header">
+            <h2>People</h2>
+        </div>
+        <div class="positions">
+            <p>Will be added soon...</p>
+        </div>
+    </div>
+</div>
+<div w3-include-html="footer.html"></div>
+</body>
+</html>

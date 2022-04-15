@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>People | Computational Healthcare and Biotechnology (COHB) Lab</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?&family=Roboto&family=Roboto+Slab&family=Oswald&family=PT+Serif&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript">
+
+        var people_data = {
+            'grad_students': [],
+            'undergrad_students': [],
+            'former_grad_students': [],
+            'former_undergrad_students': []
+        };
+
+        var output = '';
+
+        $.getJSON('people.json', function(data) {
+
+            for(var i = 0; i < data.length; i++) {
+
+                var student = data[i];
+
+                if(student['gradStudent'] && !student['previous']) {
+                    people_data['grad_students'].push(student);
+                } else if (student['gradStudent'] && student['previous']) {
+                    people_data['former_grad_students'].push(student);
+                } else if(!student['gradStudent'] && !student['previous']) {
+                    people_data['undergrad_students'].push(student);
+                } else if (!student['gradStudent'] && student['previous']) {
+                    people_data['former_undergrad_students'].push(student);
+                }
+            }
+
+            var iterator = ['grad_students', 'undergrad_students', 'former_grad_students', 'former_undergrad_students'];
+
+            for(var i = 0; i < iterator.length; i++) {
+                var students = people_data[iterator[i]];
+
+                var stype = 'Graduate Students';
+                var st = iterator[i];
+
+                if(st == 'undergrad_students') {
+                    stype = 'Undergraduate Students';
+                } else if (st == 'former_grad_students') {
+                    stype = 'Former Graduate Students';
+                } else if (st == 'former_undergrad_students') {
+                    stype = 'Former Undergraduate Students';
+                } else {
+                    // Do nothing.
+                }
+
+                output += '<p class="student-type">' + stype + '</p><hr>';
+
+                for(var j = 0; j < students.length; j++) {
+                    var student = students[j];
+
+                    output += '<div class="people-block"> \
+                                <div class="row"> \
+                                    <div class="col-md-3 col-lg-2 col-sm-4"> \
+                                        <!-- <div class="student-image" style="background-image:url(' + student['picture']['src'] + ');"></div> --> \
+                                        <img src="' + student['picture']['src'] + '" class="img-fluid"> \
+                                    </div> \
+                                    <div class="col-md-9 col-lg-10 col-sm-8 student-info"> \
+                                        <span class="student-name">' + student['name'] + '</span><br/> \
+                                        <span class="student-position">' + student['position'] + '</span></br> \
+                                        <span class="student-dept">' + student['department'] + '</span><br/> \
+                                        <span class="student-interests"><b>Research Interests:</b> ' + student['interests'] + '</span> \
+                                    </div> \
+                                </div></div>';
+                }
+            }
+
+
+            var peoples = document.getElementById('peoples');
+            peoples.innerHTML = output;
+            // console.log(output);
+        });
+
+    </script>
+
+</head>
+<body>
+<div class="blue-utility">
+    <div w3-include-html="small-header.html"></div>
+</div>
+<div class="cohb-block container-fluid">
+    <div class="cohb-block container-fluid">
+        <div w3-include-html="header.html"></div>
+    </div>
+    <div class="container">
+        <div class="pt-2 pb-2"></div>
+        <div class="page-header">
+            <h1>People</h1>
+        </div>
+        <div class="positions">
+            <p class="student-type">Head of the lab</p><hr>
+            <div class="people-block">
+            <div class="row">
+                <div class="col-md-3 col-lg-2 col-sm-4">
+                    <img src="https://cohblab.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofessor.d02c2109.jpeg&w=256&q=75" class="img-fluid">
+                </div>
+                <div class="col-md-9 col-lg-10 col-sm-8 student-info">
+                    <span class="student-name">Mohammed Aledhari</span><br/>
+                    <span class="student-position">Assistant Professor</span></br>
+                    <span class="student-dept">College of Computing and Software Engineering</span><br/>
+                    <span class="student-interests"><b>Research Interests:</b> Artificial Intelligence, Machine Learning, Data Science, Computer Vision</span>
+                </div>
+            </div></div>
+            <div id="peoples"></div>
+        </div>
+    </div>
+</div>
+<div w3-include-html="footer.html"></div>
+</body>
+</html>

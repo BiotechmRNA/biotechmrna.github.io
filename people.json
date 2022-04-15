@@ -1,0 +1,450 @@
+[
+  {
+    "name": "Rehma Razzak",
+    "id": 7,
+    "previous": false,
+    "title": "PhD Student",
+    "gradStudent": true,
+    "department": "Data Science and Analytics",
+    "interests": "Game Development, Computer Science, Machine Learning",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/rehma_razzak.92cdc035.png",
+      "height": 758,
+      "width": 604,
+      "blurDataURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAMAAADtGH4KAAAAV1BMVEXb0MitYl6+KDt8XVPBLUOslY3VKT3m29LLKkSnm5aUdW7EdmWwd2TAtK/MSkvaxrzEsqlrTkieIjHrppVIKCZ8LDTRmYXCmoZkPjguEhWihXzrtpzRaX3GL5mmAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAN0lEQVQImQXBhQHAMAzAMBeT8pj/v3MSkJKABHdOwpjr+0C46pEbeSura5jblP3DLr2rotHb6H85WwIPBtm19gAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "name": "Swetha Pailla ",
+    "id": 15,
+    "previous": false,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Artificial Intelligence, Machine Learning",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/swetha_pailla.6db3e747.jpg",
+      "height": 440,
+      "width": 562,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAGAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAdEAACAgIDAQAAAAAAAAAAAAABAgADESESFXGR/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABkRAQACAwAAAAAAAAAAAAAAAAEAAgMRIf/aAAwDAQACEQMRAD8ApKHfvq7lZittTq6k6HErjGvfsREHiVHcVc7P/9k="
+    }
+  },
+  {
+    "name": "Roger Ian Konlog",
+    "id": 8,
+    "previous": false,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Machine Learning, Software Engineering",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/roger_ian_konlog.2ec45e70.jpg",
+      "height": 548,
+      "width": 468,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAH/xAAeEAABAwQDAAAAAAAAAAAAAAABAAMhAgQREgUGkf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECAxL/2gAMAwEAAhEDEQA/AJc9Z5Wltx21DD0jQPV6E0xBxnBE+oiIdcS9M//Z"
+    }
+  },
+  {
+    "name": "Ryann Williams",
+    "id": 10,
+    "previous": false,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Software Engineering, Computational Biology, Artificial Intelligence",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/ryann_williams.346a4cd1.jpg",
+      "height": 365,
+      "width": 379,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAH/xAAfEAABAwMFAAAAAAAAAAAAAAABAAIDBAURBhMUIZH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAEAE//aAAwDAQACEQMRAD8AtRp3mWeWasmgkLRuNEbSC4huCw95ByPUREzCpVv/2Q=="
+    }
+  },
+  {
+    "name": "Angelica Ajoku",
+    "id": 2,
+    "previous": false,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "Information Technology",
+    "interests": "Data Science, Data Analysis",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/angelica_ajoku.877dbcc2.jpg",
+      "height": 372,
+      "width": 275,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAYDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAdEAABBAIDAAAAAAAAAAAAAAABAAIDBBEhBhJR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAMAwEAAhEDEQA/AJpbXIa4bEGWJrpe/tCWZDIwQGnXpztERABVJt//2Q=="
+    }
+  },
+  {
+    "name": "Vijayalakshmi Sathyanarayanan ",
+    "id": 16,
+    "previous": false,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Biotechnology, Artificial intelligence, Data Science and Analytics",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/vijayalakshmi_sathyanarayanan.1e673e05.jpg",
+      "height": 980,
+      "width": 600,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAdEAABBQEAAwAAAAAAAAAAAAABAAIDBAURITFB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABkRAAMAAwAAAAAAAAAAAAAAAAABAgMRIf/aAAwDAQACEQMRAD8Ah0dXWy46skVi5YjsRBxLZuEP4Cegd+Ob68IiJLHOguun/9k="
+    }
+  },
+  {
+    "name": "Christopher Woolford",
+    "id": 3,
+    "previous": false,
+    "title": "Undergrad Student",
+    "gradStudent": false,
+    "department": "College of Science and Mathematics",
+    "interests": "Deep Learning, BioInformatics, Optics, Plasma Physics, Particle Physics",
+    "position": "Undergraduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/christopher_woolford.44710f16.jpg",
+      "height": 491,
+      "width": 316,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAUDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAdEAABBAIDAAAAAAAAAAAAAAABAAIDBBMhERIU/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABkRAAMAAwAAAAAAAAAAAAAAAAABEQISIf/aAAwDAQACEQMRAD8Ai2KXpjgfTquifjGZrtHsdgkk7PCIiM8E3Re85D//2Q=="
+    }
+  },
+  {
+    "name": "Cora Meador",
+    "id": 4,
+    "previous": false,
+    "title": "Undergrad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Applied Machine Learning, Cybersecutiy, Bioinformatics, Statistical Inference",
+    "position": "Undergraduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/cora_meador.69361e52.jpg",
+      "height": 1040,
+      "width": 1046,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAfEAACAQQCAwAAAAAAAAAAAAABAgADBBESBQYiUYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAA//EABYRAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEQMRAD8AoU7JbDsWjcxSFuzmmlPbwbCgFfQbc5z8iIiKaf/Z"
+    }
+  },
+  {
+    "name": "Dalton Harvey",
+    "id": 12,
+    "previous": false,
+    "title": "Undergrad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Machine Vision, Software Engineering, Data Science",
+    "position": "Undergrad Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/dalton_harvey.f98aa90c.jpg",
+      "height": 1502,
+      "width": 1126,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAYDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAAP/EACAQAAIBAgcBAAAAAAAAAAAAAAECAAQFAwcREhQhMUH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAAMBAAAAAAAAAAAAAAAAAAABAhP/2gAMAwEAAhEDEQA/ACZlW1LjUluS1O4U4Z2eH71rERI4wJ02f//Z"
+    }
+  },
+  {
+    "name": "Ivan Tlaseca",
+    "id": 5,
+    "previous": false,
+    "title": "Undergrad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Artificial intelligence, Android Development, UI Development, Software Engineering",
+    "position": "Undergraduate Researcher",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/ivan_tlaseca.09ed9c78.jpg",
+      "height": 274,
+      "width": 271,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAfEAABAwQDAQAAAAAAAAAAAAABAAIEAxETIQYHQVH/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8AsQ+cspdiSYcqAI7K9URMmW7mlpsHOHw615dERUMkLf/Z"
+    }
+  },
+  {
+    "name": "Grey Won",
+    "id": 17,
+    "previous": false,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Janelle Tenorio",
+    "id": 18,
+    "previous": false,
+    "title": "Undergrad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Sushma Aladhalli Shivakumar ",
+    "id": 14,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Machine Learning, Computer Vision, Data Visualization, Data Analysis, Statistical Modeling",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/sushma_aladhalli_shivakumar.c3d03031.jpg",
+      "height": 834,
+      "width": 1003,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAHAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAL/xAAdEAABBAIDAAAAAAAAAAAAAAACAAEEEgMRQVFx/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABoRAQEAAgMAAAAAAAAAAAAAAAIBAAMEEVH/2gAMAwEAAhEDEQA/AJjPOwxzmUYoeGoG5G1hIum15yiIh0Ks93H5AIUk8z//2Q=="
+    }
+  },
+  {
+    "name": "Akula Sai Shashank",
+    "id": 11,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Machine Learning, Deep Learning, Artificial Intelligence, Data Analytics",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/sai_shashank_akula.a1306256.jpg",
+      "height": 452,
+      "width": 410,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAcEAACAgMBAQAAAAAAAAAAAAABAgARAwQFIWH/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABcRAAMBAAAAAAAAAAAAAAAAAAABAhH/2gAMAwEAAhEDEQA/AKX5OhsZXReg2NhRKILojyqJ+xESbrApH//Z"
+    }
+  },
+  {
+    "name": "Keay Davidson",
+    "id": 18,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Jessica Barnes",
+    "id": 19,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Lin Wang",
+    "id": 20,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Yihong Li",
+    "id": 21,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Ryan Deem",
+    "id": 9,
+    "previous": true,
+    "title": "Undergrad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Machine Learning, Software Engineering, Neural Networks, Mathematics",
+    "position": "Undergraduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/ryan_deem.b8932a18.jpg",
+      "height": 890,
+      "width": 940,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAhEAABAwEJAAAAAAAAAAAAAAAAAQMREwIEBQYSIjGBkf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAGREAAgMBAAAAAAAAAAAAAAAAAAIBAxEE/9oADAMBAAIRAxEAPwCOuY7suN2Yceoq5SiNscavewAUvzouYHFjSf/Z"
+    }
+  },
+  {
+    "name": "Suzan Manasreh",
+    "id": 1,
+    "previous": true,
+    "title": "Undergrad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Web Development, Automation, Software Engineering",
+    "position": "Undergraduate Research Assistant & Web Developer",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/suzan_manasreh.58d06c17.jpg",
+      "height": 126,
+      "width": 118,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAdEAABBQEAAwAAAAAAAAAAAAADAAECBBEGBYHw/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAQIh/9oADAMBAAIRAxEAPwCfm+jvk8zVKUZNu2T4xMaDCjB8j6fPnREUxbRr/9k="
+    }
+  },
+  {
+    "name": "Sandra Gomez Castro",
+    "id": 13,
+    "previous": true,
+    "title": "Undergrad Student",
+    "gradStudent": false,
+    "department": "Data Science and Analytics",
+    "interests": "Data Science, Machine Learning",
+    "position": "Undergrad Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/sandra_gomez_castro.4dc0aea2.jpg",
+      "height": 612,
+      "width": 494,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAYDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAeEAABBAIDAQAAAAAAAAAAAAABAAIDBCExBQcRQf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwCXD2deqclYsxxvdHNgse73I0QND7pERVkV/9k="
+    }
+  },
+  {
+    "name": "Yihong Li",
+    "id": 21,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Nihad Kalathingal",
+    "id": 22,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Joshua Odeyemi",
+    "id": 23,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Eric Camadine",
+    "id": 24,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Former Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Xiaoju Jiang",
+    "id": 25,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Former Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Shelby Joji",
+    "id": 26,
+    "previous": true,
+    "title": "Grad Student",
+    "gradStudent": false,
+    "department": "College of Computing and Software Engineering",
+    "interests": "COHB Lab",
+    "position": "Former Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/unknown_person.f72b49f8.jpeg",
+      "height": 1024,
+      "width": 925,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAcDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAACAgAHAAAAAAAAAAAAAAAAAgESAwURExQhQf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ApS5gnPa2M21pWFr1Ex6ABgr/2Q=="
+    }
+  },
+  {
+    "name": "Andy Vu",
+    "id": 27,
+    "previous": false,
+    "title": "Grad Student",
+    "gradStudent": true,
+    "department": "College of Computing and Software Engineering",
+    "interests": "Machine Learning, Deep learning, Data Analytics",
+    "position": "Graduate Research Assistant",
+    "picture": {
+      "src": "https://cohblab.vercel.app/_next/static/media/andy_vu.d8d9ea36.jpg",
+      "height": 2089,
+      "width": 2489,
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAHAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAdEAACAQQDAAAAAAAAAAAAAAABAgADBBEiBXGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAABAAID/9oADAMBAAIRAxEAPwC+rbXJ5ZBhijW5cb69Y9iIljmQdN//2Q=="
+    }
+  }
+]
